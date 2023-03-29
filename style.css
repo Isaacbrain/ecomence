@@ -28,10 +28,10 @@
 
 /* -------- DARK THEME VARIABLES -------- */
 .dark-theme-variables {
---color-background: #&iaie;
+--color-background: #181a1e;
 --color-white: #202528;
 --color-dark: #edeffd;
---color-dark-variant: #azbdcc;
+--color-dark-variant: #a3bdcc;
 --color-light: rgba(o, o, o, 0.4);
 --box-shadow: o 2rem 3rem var(--color-light);
 }
@@ -470,7 +470,7 @@ main .recent-orders a{
 }
 
 .right .sales-analytics h2{
-     margin-bottom: 0.8rem;
+     margin-bottom: 2.4rem;
 }
 
 .right .sales-analytics .item{
@@ -609,6 +609,11 @@ main .recent-orders a{
 
     aside .logo{
         margin-left: 1rem;
+    }
+
+    aside .top{
+        display: flex;
+        justify-content: space-between;
     }
 
     aside .logo h2{
